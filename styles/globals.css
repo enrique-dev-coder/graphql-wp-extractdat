@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Alagard';
+  src: url('../assets/alagard/alagard.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pixel_letter {
+  font-family: 'Alagard';
+}
